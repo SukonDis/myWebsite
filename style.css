@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .links {
+    background-color:white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .login {
+    margin-left: 20px;
+  }
+  .signUp{
+    margin-left: 20px;
+  }
+
+  .welcome {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: larger;
+    height: 100px;
+    background-color:rgb(65, 65, 162);
+  }
+  
+  .sidebar {
+    text-align: center;
+    padding: 15px;
+    float: left;                  
+    width: 19%;
+    height: auto;
+    background-color: whitesmoke;
+  }
+  
+  .page {
+    align-content: center;
+    width: 900px;
+    margin: 0 auto;
+  }
+  
+  .Page-container {
+    display: flex;
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .content {
+    overflow: hidden;
+    padding: 20px;
+    padding-bottom: 20px;
+    float: right;       
+    text-align: justify;        
+    width: 72%;
+    height: auto;
+    background-color: #9aeacf;
+  }
+
+  .content img{
+  height: 200px;
+  width: 200px;
+  }
+  
+  .column {
+    line-height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 31.5%;
+    margin: 10px;
+    height: 160px;
+    background-color: #41d6a5;
+  }
+
+  .column img{
+    height: 100px;
+    width: 150px;
+    transition: transform 0.3s ease;
+  }
+  .column img:hover {
+    transform: scale(1.8);
+   }
+
+  p {
+    margin-bottom: 20px;
+  }
+  
+  .article-image {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutInfo img{
+    width: 200px;
+    height: 100px;
+  }
+
+  .sample {
+    text-align: center;
+    padding-top: 50px;
+    background-color:  #c0f7e5;
+    overflow: hidden;
+    margin: 10px;
+  }
+
+  table, th, td {
+    padding: 20px;
+    border: 1px solid black;
+  }
+
+  button{
+    text-decoration: none;
+  }
+  
+  .Login{
+    text-align: center;
+    background-color: beige;
+    overflow: hidden;
+   }
+
+/*This part of css is for the Produtcs page*/
+   .Products {
+    line-height: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    width: 31%;
+    margin: 20px;
+    height: 160px;
+    background-color: #B2D6FF;
+  }
+
+  .Products img{
+    width: 200px;
+    height: 100px;
+    transition: transform 0.3s ease;
+  }
+  .Products img:hover {
+    transform: scale(1.8);
+   }
+
+   .Pvp { 
+    text-align: justify;
+    padding: 20px;
+    margin: 10%;
+    border: 10px;
+    background-color: aqua;
+   }
+   .Pvp button{
+    justify-content: center;
+   }
+
+     
+/*Css for button styling*/
+  button {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #B2D6FF;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  button:hover {
+    background-color: #76AEED;
+  }
+  
+  
+  button:active {
+    background-color: #407FC7;
+  }
+
+  @media (max-width: 768px) {
+    .sidebar, .content {
+      text-align: center;  
+      position: sticky;
+      width: 100%;
+     }
+     .column a {
+      width: 100%;
+      height: auto;
+      margin: 0;
+     }
+     .column img {
+      width: 100%;
+      height: auto; 
+     }
+     .column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+     }
+     .sample {
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+     }
+    }
